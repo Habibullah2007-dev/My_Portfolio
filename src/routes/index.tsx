@@ -280,7 +280,7 @@ function Avatar() {
         className="relative grid h-full w-full place-items-center rounded-full"
         style={{
           background:
-            "conic-gradient(from 180deg, oklch(0.65 0.19 277), oklch(0.62 0.21 310), oklch(0.65 0.19 277))",
+            "conic-gradient(from 180deg, oklch(0.65 0.18 240), oklch(0.70 0.16 220), oklch(0.65 0.18 240))",
         }}
       >
         <div className="grid h-[94%] w-[94%] place-items-center overflow-hidden rounded-full bg-surface ring-1 ring-border">
