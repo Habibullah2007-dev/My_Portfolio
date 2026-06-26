@@ -277,16 +277,23 @@ function Avatar() {
         style={{ background: "var(--gradient-primary)" }}
       />
       <div
-        className="relative grid h-full w-full place-items-center rounded-full border border-border"
+        className="relative grid h-full w-full place-items-center rounded-full"
         style={{
           background:
             "conic-gradient(from 180deg, oklch(0.65 0.19 277), oklch(0.62 0.21 310), oklch(0.65 0.19 277))",
         }}
       >
-        <div className="grid h-[92%] w-[92%] place-items-center rounded-full bg-surface">
-          <div className="font-display text-7xl font-bold text-gradient sm:text-8xl">
-            {PROFILE.initials}
-          </div>
+        <div className="grid h-[94%] w-[94%] place-items-center overflow-hidden rounded-full bg-surface ring-1 ring-border">
+          <img
+            src={PROFILE.avatar}
+            alt={`${PROFILE.name} — portrait`}
+            width={576}
+            height={576}
+            loading="eager"
+            decoding="async"
+            sizes="(min-width: 640px) 288px, 224px"
+            className="h-full w-full object-cover"
+          />
         </div>
       </div>
     </div>

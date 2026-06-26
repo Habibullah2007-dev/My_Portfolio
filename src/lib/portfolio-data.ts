@@ -1,3 +1,6 @@
+import resumeAsset from "@/assets/resume.pdf.asset.json";
+import profileAsset from "@/assets/profile.jpg.asset.json";
+
 export const PROFILE = {
   name: "Habibullah Abdulganiyu Ayomide",
   initials: "HA",
@@ -11,7 +14,8 @@ export const PROFILE = {
     "https://www.linkedin.com/in/habibullah-abdulganiyu-ayomide-a77a632a6",
   github: "https://github.com/Habibullah2007-dev",
   githubUser: "Habibullah2007-dev",
-  resume: "/resume.pdf",
+  resume: resumeAsset.url,
+  avatar: profileAsset.url,
 };
 
 export const KEYWORDS = [
