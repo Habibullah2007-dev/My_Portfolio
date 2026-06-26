@@ -5,7 +5,7 @@ export const PROFILE = {
   name: "Habibullah Abdulganiyu Ayomide",
   initials: "HA",
   headline:
-    "AI Automation Enthusiast · Computer & Communications Engineering Student · Founder of AgentForge",
+    "AI Automation Engineer · Computer & Communications Engineering Student · Founder of AgentForge",
   intro:
     "I'm Habibullah, a Computer and Communications Engineering student at Abubakar Tafawa Balewa University (ATBU), Nigeria, and the founder of AgentForge. I build AI-powered automation solutions tailored to African markets, with a focus on multilingual NLP, workflow automation, and agentic AI systems.",
   email: "habibabdulganiyu001@gmail.com",

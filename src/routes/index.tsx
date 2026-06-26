@@ -1037,7 +1037,7 @@ function Footer() {
             {PROFILE.name}
           </div>
           <div className="text-xs text-muted-foreground">
-            AI Automation Enthusiast · Computer & Communications Engineering Student
+            AI Automation Engineer · Computer & Communications Engineering Student
           </div>
         </div>
         <div className="flex flex-wrap items-center gap-3">
